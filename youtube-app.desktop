@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=YouTube
+Comment=YouTube as a standalone app (Chromium, with Shorts removed, Return YouTube Dislike and Discord RPC via PreMiD)
+Exec=youtube-app.sh %U
+Icon=youtube-app
+Terminal=false
+StartupWMClass=chrome-www.youtube.com__-Default
+Categories=Network;WebBrowser;
