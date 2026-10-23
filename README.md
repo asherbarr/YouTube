@@ -25,3 +25,16 @@ profile, so it shows up as a separate app with its own icon, sign-in and extensi
 
 Then open **YouTube** from the app menu and add the three extensions above from the Chrome Web Store
 inside the app window. They stay in the app's own profile (`~/.local/share/youtube-app-profile`).
+
+## Windows
+
+Uses an installed Chromium-based browser (Chrome if present, otherwise Edge, which ships with
+Windows) in the same `--app` mode instead of `chromium-browser`, with its own profile under
+`%LOCALAPPDATA%\youtube-app-profile`.
+
+```powershell
+.\install.ps1
+```
+
+Creates Desktop and Start Menu shortcuts. Open **YouTube** from either, then add the three
+extensions above from the Chrome Web Store inside the app window.
